@@ -1,0 +1,46 @@
+body{
+  
+  background-color: lightgray;
+  font-family: Helvetica;
+  
+  
+}
+
+h2{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.filter{
+  background-color: white;
+  box-shadow: 0.8rem 0.8rem  5px rgba(0,0,0,0.01), 0 6px 20px 10px rgba(0, 0, 0, 0.60);
+   margin: 2.5rem; 
+  padding: 1rem 2rem;
+  height: 50vh;
+  
+}
+.categories {
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+  gap: 2rem;
+  
+  margin-left: 15%;
+
+  
+  
+  list-style-type: none;
+}
+
+.tag {
+  
+  background-color : lightgray;
+  Border: tomato solid 3px;
+  border-radius: 2rem;
+  font-size: 2vw;
+  padding: 1vh;
+  font-weight: 500;
+  
+}
